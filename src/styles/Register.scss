@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(57, 205, 205);
+
+    .formWrapper {
+        background-color: white;
+        padding: 20px 60px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        .logo {
+            font-family: 'Pangolin', cursive;
+            font-size: 30px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            
+        input {
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid rgb(70, 169, 169);
+            width: 250px;
+            &::placeholder {
+                color: rgb(175,175,175);
+            }
+        }
+        button {
+            background-color: rgb(38, 142, 142);
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: rgb(148, 146, 146);
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+        }
+        p {
+            margin-top: 10px;
+            color: rgb(148, 146, 146);
+            font-size: 12px;
+        }
+    }
+}
